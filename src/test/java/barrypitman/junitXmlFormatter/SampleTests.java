@@ -5,7 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 /**
- * Test which exercises the different possible outcomes of a jUnit test.
+ * Test which exercises the different possible outcomes of a JUnit test.
  *
  * @author barry pitman
  * @since 2013/06/17 5:36 PM

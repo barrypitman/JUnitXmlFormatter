@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>barrypitman</groupId>
-    <artifactId>junitXmlFormatter</artifactId>
+    <artifactId>JUnitXmlFormatter</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
     <name>junitXmlFormatter</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/barrypitman/JUnitXmlFormatter</url>
 
-    <description>Contains a jUnit RunListener for generating jUnit XML reports</description>
+    <description>Contains a JUnit RunListener for generating JUnit XML reports</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
