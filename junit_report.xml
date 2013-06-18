@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="2" hostname="barry-HP" name="null" tests="3" time="0.069" timestamp="2013-06-18T07:49:02">
+  <properties />
+  <testcase classname="barrypitman.junitXmlFormatter.SampleTests" name="testException" time="0.007">
+    <failure type="testException(barrypitman.junitXmlFormatter.SampleTests)">java.lang.IllegalArgumentException
+	at barrypitman.junitXmlFormatter.SampleTests.testException(SampleTests.java:27)
+	at barrypitman.junitXmlFormatter.Runner.runTests(Runner.java:27)
+	at barrypitman.junitXmlFormatter.RunnerTest.testRunnerWithSampleTests(RunnerTest.java:18)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:77)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:195)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:63)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+</failure>
+  </testcase>
+  <testcase classname="barrypitman.junitXmlFormatter.SampleTests" name="testAssertionError" time="0.002">
+    <failure type="testAssertionError(barrypitman.junitXmlFormatter.SampleTests)">java.lang.AssertionError
+	at barrypitman.junitXmlFormatter.SampleTests.testAssertionError(SampleTests.java:22)
+	at barrypitman.junitXmlFormatter.Runner.runTests(Runner.java:27)
+	at barrypitman.junitXmlFormatter.RunnerTest.testRunnerWithSampleTests(RunnerTest.java:18)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:77)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:195)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:63)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120)
+</failure>
+  </testcase>
+  <testcase classname="barrypitman.junitXmlFormatter.SampleTests" name="testSuccess" time="0.0" />
+</testsuite>
