@@ -2,6 +2,7 @@ package barrypitman.junitXmlFormatter;
 
 import org.junit.runner.Description;
 import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
 import org.junit.runner.notification.RunListener;
 
 
@@ -26,5 +27,13 @@ public class BasicRunListener extends RunListener {
                 result.getIgnoreCount() + " ignored, " +
                 (result.getRunCount() + result.getIgnoreCount())+ " total. " +
                 "Elapsed: " + elapsed + " seconds");
+
+        System.out.println("Failed tests: \n");
+        for (Failure failure : result.getFailures()) {
+            System.out.println(failure.toString());
+            failure.getException().printStackTrace(System.out);
+            System.out.println();
+            System.out.println();
+        }
     }
 }
